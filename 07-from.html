@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form Registrasi Mahasiswa</title>
+</head>
+
+<body>
+    <h1>Form Registrasi Mahasiswa</h1>
+    <form action="#" method="post">
+        <label for="nim">NIM</label><br>
+        <input type="text" id="nim" name="nim" required><br><br>
+        <label for="nama">Nama Lengkap</label><br>
+        <input type="text" id="nama" name="nama" required><br><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="prodi">Program Studi</label><br>
+        <select id="prodi" name="prodi">
+            <option value="informatika">Informatika</option>
+            <option value="sistem-informasi">Sistem Informasi</option>
+            <option value="teknologi-informasi">Teknologi Informasi</option>
+        </select><br><br>
+        <label for="alamat">Alamat</label><br>
+        <textarea id="alamat" name="alamat" rows="4" cols="40"></textarea><br><br>
+        <button type="submit">Daftar</button>
+        <button type="reset">Bersihkan</button>
+    </form>
+</body>
+
+</html>
